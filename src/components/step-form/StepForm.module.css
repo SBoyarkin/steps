@@ -1,0 +1,25 @@
+.inputForm {
+    border: solid #1a1a1a 2px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    height: 2em;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.form {
+    display: flex;
+}
+
+.title {
+    text-align: left;
+}
+
+.btn {
+    border: solid #1a1a1a 2px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    height: 2em;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}

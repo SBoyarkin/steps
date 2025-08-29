@@ -1,0 +1,39 @@
+.row {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+
+.distance {
+
+}
+
+.crud {
+    display: flex;
+    gap: 10px;
+    user-select: none;
+}
+
+.edit:hover {
+    color: burlywood;
+}
+
+.edit {
+
+}
+
+.delete:hover {
+    color: burlywood;
+}
+
+.delete {
+
+}
+
+.table {
+    border: solid #1a1a1a 2px;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
