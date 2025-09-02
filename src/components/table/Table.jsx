@@ -5,8 +5,8 @@ export function Table({data}) {
             <div className={S.table}>
                 {data.map((item)=>
 
-                    <div className={S.row} key={item.data}>
-                        <div className={S.data}>{item.data} </div>
+                    <div className={S.row} key={item.date}>
+                        <div className={S.data}>{item.date} </div>
                         <div className={S.distance}>{item.distance}</div>
                         <div className={S.crud}>
                             <div className={S.edit}>✎</div>

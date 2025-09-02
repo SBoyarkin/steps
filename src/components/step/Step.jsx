@@ -6,11 +6,11 @@ import {useState} from "react";
 export function Step() {
     const [dataArray, updateHandle] =  useState([
         {
-            data: '20.07.2019',
+            date: '20.07.2019',
             distance: 5.7,
         },
         {
-            data: '20.07.2019d',
+            date: '20.07.2019d',
             distance: 5.7,
         },
     ])
