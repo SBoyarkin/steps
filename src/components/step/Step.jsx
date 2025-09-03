@@ -1,4 +1,3 @@
-import S from './Step.module.css'
 import {Table} from "../table/Table.jsx";
 import {StepForm} from "../step-form/StepForm.jsx";
 import {useState} from "react";
