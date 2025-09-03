@@ -9,17 +9,14 @@ export function Step() {
             date: '20.07.2019',
             distance: 5.7,
         },
-        {
-            date: '20.07.2019d',
-            distance: 5.7,
-        },
+
     ])
 
     return (
         <>
             <StepForm data={dataArray} updateHandle={updateHandle}/>
 
-            <Table data={dataArray} />
+            <Table data={dataArray} updateHandle={updateHandle}/>
 
         </>
     )
