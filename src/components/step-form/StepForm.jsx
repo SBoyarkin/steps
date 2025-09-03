@@ -2,7 +2,6 @@ import S from './StepForm.module.css'
 import {sortByDate} from "../../script.js";
 
 export function StepForm({data, updateHandle}) {
-    // Функция для валидации даты в формате ДД.ММ.ГГ
     const isValidDate = (dateString) => {
         const regex = /^(\d{2})\.(\d{2})\.(\d{4})$/;
         if (!regex.test(dateString)) return false;
